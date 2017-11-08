@@ -1,0 +1,180 @@
+@font-face {
+			font-family: "GothamProLight";
+			src: url("../fonts/GothamProLight/GothamProLight.eot");
+			src: url("../fonts/GothamProLight/GothamProLight.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GothamProLight/GothamProLight.woff") format("woff"),
+			url("../fonts/GothamProLight/GothamProLight.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	@font-face {
+			font-family: "GothamProMedium";
+			src: url("../fonts/GothamProMedium/GothamProMedium.eot");
+			src: url("../fonts/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
+			url("../fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	@font-face {
+			font-family: "GothamProRegular";
+			src: url("../fonts/GothamProRegular/GothamProRegular.eot");
+			src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+			url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	@font-face {
+			font-family: "GothamProBold";
+			src: url("../fonts/GothamProBold/GothamProBold.eot");
+			src: url("../fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GothamProBold/GothamProBold.woff") format("woff"),
+			url("../fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+body{
+	margin: 0;
+}
+.section_table{
+	background-color: #f5f5f5;
+	padding: 95px 0;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.empty-td{
+	opacity: 0;
+}
+.table1 {
+    border-collapse: separate;
+    border-spacing: 17px 0px;
+    text-align: center;
+    color:#333333;
+        margin-left: -11px;
+}
+	.table1, th, td {
+
+}
+
+.table1 .first-td{
+	background-color: #fff;
+	width: 321px;
+	box-sizing: border-box;
+	text-align: left;
+    padding-left: 47px;
+
+}
+.table1 .title-td{
+    background-color: #3f51b5;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+    padding: 22px 19px;
+    width: 192px;
+    box-sizing: border-box;
+    line-height: 29px;
+    font-size: 21px;
+
+    font-family: "GothamProMedium";
+}
+.table1 td{
+	padding: 18px 14px 0 14px;
+	background-color: white;
+	border-right: 1px solid #e9e9e9;
+	border-left: 1px solid #e9e9e9;
+	font-family: "GothamProLight";
+}
+.table1 td p{
+	margin: 0;
+	padding-bottom: 18px;
+	font-size: 18px;
+	border-bottom: 1px solid #e0e0e0;
+   }
+.table1 td b{
+	font-size: 20px;
+	font-family: GothamProBold;
+}
+.table1 .first-top-td{
+	border-radius: 10px 0px 0px 0px;
+    padding: 25px 36px 0 47px;
+}
+.table1 .first-bot-td{
+	padding: 26px 36px 0 47px;
+	border-radius: 0px 0px 0px 10px;
+
+}
+.table1 .first-bot-td p{
+	border:none;
+    padding-bottom: 30px;
+}
+
+.table1 .first-days p{
+	font-family: "GothamProMedium";
+	font-size: 24px;
+}
+.table1 .full-pack{
+	background-color: #3f51b5;
+	color: #fff;
+	font-size: 20px;
+}
+.table1 .full-pack p{
+	border:none;
+	    font-family: "GothamProRegular";
+    font-size: 20px;
+}
+.table1 .full-price p{
+	border:none;
+	font-family: "GothamProRegular";
+}
+.table1 .economy p{
+	font-family: "GothamProRegular";
+	font-size: 30px;
+	border:none;
+		
+}
+.table1 .economy2 a{
+    border: 3px solid rgb(255, 23, 68);
+    border-radius: 4px;
+    background-color: rgb(255, 23, 68);
+    padding: 15px 1px;
+    width: 124px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-family: "GothamProRegular";
+    font-size: 18px;
+    margin-top: -10px;
+    display: block;
+    margin-bottom: 20px;
+}
+.table1 .economy2{
+	border-radius: 0px 0px 10px 10px;
+	padding-top: 0;
+}
+.table1 .active{
+	position: relative;
+    z-index: 1;
+    border-radius: 0;
+    background-color: #ff1744;
+    padding-top: 5px;
+
+}
+.table1 .active2{
+ background-color: #ff1744;
+}
+.table1 .active:before{ 
+    content: "";
+    display: block;
+    position: absolute;
+    height: 121px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #ff1744;
+    width: 192px;
+    box-sizing: border-box;
+    top: -19px;
+    left: -1px;
+    z-index: -1;
+ }
